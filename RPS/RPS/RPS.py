@@ -1,10 +1,17 @@
 from random import randint
 print("Time for Rock, Paper, Scissors. Write down your choice!")
-print("Type 'help' to get an explanation of how the game works")
+print("Type 'help' to get an explanation of how the game works.")
 userChoice = input("")
 
 if(userChoice == "help"):
-    print("game explanation here")
+    print("Simple explanation how to play RPS")
+    print("paper beats rock")
+    print("rock beats scissors")
+    print("scissors beats paper")
+    print("You can use the following options to make a choice:")
+    print("For rock: r, R, rock or Rock")
+    print("For scissors: sc, Sc, scissors or Scissors")
+    print("For paper: p, P, paper or Paper")
 else:
     if(userChoice == 'r' or userChoice == 'R' or userChoice == 'Rock' or userChoice == 'rock'):
         choice = 1
