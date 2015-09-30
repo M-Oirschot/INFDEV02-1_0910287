@@ -22,7 +22,8 @@ while i != length:
         while changeChar >= 123:
             difference = changeChar - 122
             changeChar = 96 + difference
-
+    else:
+        changeChar = curChar
     sys.stdout.write(chr(changeChar))
     i = i + 1
 sys.stdout.write("\n")
