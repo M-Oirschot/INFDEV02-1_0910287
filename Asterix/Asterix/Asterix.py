@@ -1,7 +1,7 @@
 ﻿print ("Specify a number please.")
 end = 0
 try:
-   number = int(input())
+   number = int(raw_input())
    numberStart = number
 except ValueError:
    print("That's not an int!")
