@@ -1,7 +1,7 @@
-from random import randint
+﻿from random import randint
 print("Time for Rock, Paper, Scissors. Write down your choice!")
 print("Type 'help' to get an explanation of how the game works.")
-userChoice = input("")
+userChoice = raw_input("")
 
 if(userChoice == "help"):
     print("Simple explanation how to play RPS")
@@ -35,6 +35,6 @@ else:
     if (randomChoice == choice):
         print("It's a draw!")
     elif (choice == 1 and randomChoice == 2) or (choice == 2 and randomChoice == 3) or (choice == 3 and randomChoice == 1):
-        rint("You lose!")
+        print("You lose!")
     else:
         print("You win! (tryhard)")
