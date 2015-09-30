@@ -1,8 +1,8 @@
-from random import randint
+﻿from random import randint
 
 print("Time for Rock, Paper, Scissors. Write down your choice!")
 print("Type 'help' to get an explanation of how the game works.")
-userChoice = input("")
+userChoice = raw_input("")
 
 if(userChoice == "help"):
     print("Simple explanation how to play RPS with lizard & spock added.")
