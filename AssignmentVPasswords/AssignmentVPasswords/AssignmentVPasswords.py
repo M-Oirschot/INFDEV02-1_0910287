@@ -36,7 +36,7 @@ while True:
     if(amountOfWords >= 3):
         status = status+10
 
-    if(status <= 4):
+    if(status <= 5):
         print("Password strength: Weak")
     elif(status > 5 and status <= 13):
         print("Password strength: Medium")
