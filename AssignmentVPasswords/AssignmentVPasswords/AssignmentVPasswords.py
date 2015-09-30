@@ -1,7 +1,7 @@
-import re
+﻿import re
 while True:
     print("Enter a password")
-    pw = input("")
+    pw = raw_input("")
 
     status = 0
 
