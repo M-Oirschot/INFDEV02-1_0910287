@@ -1,10 +1,10 @@
-import re
+﻿import re
 import sys
 
 print("Input a string")
-string = input("")
+string = raw_input("")
 print("Input number")
-shift = int(input(""))
+shift = int(raw_input(""))
 
 length = len(string)
 i = 0
