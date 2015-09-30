@@ -1,6 +1,6 @@
-while True:
+﻿while True:
     print("Input celcius")
-    celcius = int(input(""))
+    celcius = int(raw_input(""))
 
     if(celcius < -273):
         print ("Value cannot be lower then -273")
