@@ -13,22 +13,13 @@ if(userChoice == 1):
             endvar += "*"
         endvar += "\n"
 
-    # This does the same but then with only 1 forloop
-    #endvar = ""
-    #lineCounter = 0
-    #while lineCounter != size:
-    #    for i in range(size):
-    #        endvar += "*"
-    #    endvar += "\n"
-    #    lineCounter += 1
-
 if(userChoice == 2):
     endvar = ""
 
 if(userChoice == 3):
     endvar = ""
     lineCounter = 0
-    cnt = int(1)
+    cnt = 1
     while lineCounter != size:
         for i in range(cnt):
             endvar += "*"
