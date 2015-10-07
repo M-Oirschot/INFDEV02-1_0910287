@@ -3,7 +3,7 @@ string = raw_input("")
 
 #method 1
 #output = string[::-1] #extended slices
-#saw it was a mandatory to use a loop @ github (pretty late to update though)
+#saw it was a mandatory to use a loop @ github
 
 #method 2
 getLength = len(string)
