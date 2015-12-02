@@ -32,16 +32,37 @@ def sum(x):
     else:
         return sum(x.Tail) + x.Value
 
+def add(incrby, x):
+    newlist = Empty
+    if x.isEmpty:
+        return 0
+    else:
+        x.Value = x.Value + incrby
+        add(incrby, x.Tail)
+        newlist = Node(x.Value, x.Tail)
+        return newlist        
+
 #do this assignment below with creating a new list
-newlist = Empty
 def filterEven(x):
+    newlist = Empty
     if x.isEmpty:
         return 0
     else:
         if x.Value % 2 != 1:
+            filterEven(x.Tail)
             newlist = Node(x.Value, x.Tail)
+            return newlist
+        else:
+            return 0
 
+
+#test = add(10, x)
+test = filterEven(x)
+
+while not(test.isEmpty):
+    print test.Value
+    test = test.Tail
 
 
 #print(sum(x))
-print filterEven(x)
+#print filterEven(x)
